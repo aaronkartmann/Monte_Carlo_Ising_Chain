@@ -31,7 +31,7 @@ The Metropolis algorithm generates configurations according to the Boltzmann dis
 - `IsingChain.py`: Implements the Ising chain and Metropolis algorithm.
 - `analysis.py`: Contains analysis functions, including binning and analytical calculations.
 - `Derivations.ipynb`: Derives the expressions used in the project.
-- `IsingChain_ExampleSimulation.ipynb`: Example simulation: runs the simulation for an \(N=100\) spin chain and analyzes the results.
+- `IsingChain_ExampleSimulation.ipynb`: Example simulation. Runs the simulation for an \(N=100\) spin chain and analyzes the results.
 
 ## Requirements
 
