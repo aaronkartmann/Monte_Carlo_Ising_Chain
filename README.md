@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a Monte Carlo simulation of the one-dimensional Ising model using the Metropolis algorithm. The notebook `IsingChain_ExampleSimulation.ipynb` demonstrates the simulation by investigating how temperature affects thermodynamic observables of a spin chain and comparing their Monte Carlo estimates with analytical predictions.
+This project implements a Monte Carlo simulation of the one-dimensional ferromagnetic Ising model using the Metropolis algorithm. The notebook `IsingChain_ExampleSimulation.ipynb` demonstrates the simulation by investigating how temperature affects thermodynamic observables of a spin chain and comparing their Monte Carlo estimates with analytical predictions.
 
 This project is based on the Week 1 tutorial for the Computational Quantum Physics course at Radboud University Nijmegen. It extends the original exercise by providing detailed analytical derivations in `Derivations.ipynb` and implementing the Ising model as a reusable Python class in `IsingChain.py`, alongside additional analysis of the simulation results.
 
@@ -14,7 +14,7 @@ The energy of a spin configuration is
 \[
 E = -J \sum_{i=1}^{N-1} s_i s_{i+1},
 \]
-where \(J=1\) and the Boltzmann constant is set to \(k_B=1\).
+where \(J=1\) is the ferromagnetic coupling constant and the Boltzmann constant is set to \(k_B=1\).
 
 The Metropolis algorithm generates configurations according to the Boltzmann distribution. Thermodynamic observables are calculated from the sampled configurations and compared with analytical results.
 
